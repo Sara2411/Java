@@ -3,6 +3,10 @@ public class Rettangolo {
     private double x1, x2;
     private double y1, y2;
 
+    public Rettangolo() {
+
+    }
+
     public void trasla(double x, double y, double a, double b, double l, double h) {
 		x1 = x + a;
 		y1 = y + b;
