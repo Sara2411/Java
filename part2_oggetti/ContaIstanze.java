@@ -1,5 +1,7 @@
 public class ContaIstanze {
 
+  //Fa il conto delle istanze
+
     static private int numberOfIstances;
 
     public ContaIstanze() 
