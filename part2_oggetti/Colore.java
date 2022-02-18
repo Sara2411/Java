@@ -39,6 +39,4 @@ public class Colore {
       R = r;
     }
 
-    
-    
   } 

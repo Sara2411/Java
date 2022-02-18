@@ -12,4 +12,5 @@ public class ChatBotNonCosiInterattivo {
             System.out.println("Ciao "+nome+"!");
         }
     }
+    
 }
