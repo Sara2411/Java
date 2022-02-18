@@ -7,7 +7,7 @@ public class Segmento {
     public Segmento(Punto a, Punto b) {
         a = p1;
         b = p2;
-    }
 
+    }
 
 }

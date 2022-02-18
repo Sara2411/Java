@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "part1_intro",
+        "part2_oggetti",
+        "part3_controllo_array",
+        "part4_oggetti2",
+        "part5_ereditarieta"
+    ]
+}
