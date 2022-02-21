@@ -1,42 +1,68 @@
 public class ContaVocali {
 
-    public int contaVocali(String testo, char a, char e, char i, char o, char u) {
-    int contA = 0;
-    int contE = 0;
-    int contI = 0;
-    int contO = 0;
-    int contU = 0;
-
-    for (int k=0; k<testo.length(); k++) {
-        if (testo[k].equals(a)) contA++;
-
-    return contA;
+    public final static void main(String[]args) {
+        contaVocali("ciao");
     }
 
-    for (int k=0; k<testo.length(); k++) {
-        if (testo[k].equals(e)) contE++;
+    public static void contaVocali(String testo) 
+    {
+    
+    int contA = contaA(testo);
+    int contE = contaE(testo);;
+    int contI = contaI(testo);
+    int contO = contaO(testo);
+    int contU = contaU(testo);;
 
-    return contE;
+    System.out.println("a =" + contA);
+    System.out.println("e =" + contE);
+    System.out.println("i =" + contI);
+    System.out.println("o =" + contO);
+    System.out.println("u =" + contU);
+
     }
 
-    for (int k=0; k<testo.length(); k++) {
-        if (testo[k].equals(i)) contI++;
+    public static int contaA(String testo) {
+        int contA = 0;
+        for (int k=0; k<testo.length(); k++) {
+            if (testo.substring(k, k+1).equals("a")) contA++;
+        }
+        return contA;
+    }  
 
-    return contI;
-    }
 
-    for (int k=0; k<testo.length(); k++) {
-        if (testo[k].equals(o)) contO++;
+    public static int contaE(String testo) {
+        int contE = 0;
+        for (int k=0; k<testo.length(); k++) {
+            if (testo.substring(k, k+1).equals("e")) contE++;
+        }
+        return contE;
+    }  
 
-    return contO;
-    }
 
-    for (int k=0; k<testo.length(); k++) {
-        if (testo[k].equals(u)) contU++;
+    public static int contaI(String testo) {
+        int contI = 0;
+        for (int k=0; k<testo.length(); k++) {
+            if (testo.substring(k, k+1).equals("i")) contI++;
+        }
+        return contI;
+    } 
 
-    return contU;
-    }
+    public static int contaO(String testo) {
+        int contO = 0;
+        for (int k=0; k<testo.length(); k++) {
+            if (testo.substring(k, k+1).equals("o")) contO++;
+        }
+        return contO;
+    } 
 
+    public static int contaU(String testo) {
+        int contU = 0;
+        for (int k=0; k<testo.length(); k++) {
+            if (testo.substring(k, k+1).equals("u")) contU++;
+        }
+        return contU;
     }
 
 }
+
+
