@@ -1,9 +1,5 @@
 public class ContaVocali {
 
-    public final static void main(String[]args) {
-        contaVocali("ciao");
-    }
-
     public static void contaVocali(String testo) 
     {
     
