@@ -1,31 +1,31 @@
 public class SupportoMusicale {
 
-    private String titoloBrano1;
-    private String titoloBrano2;
-    private String titoloBrano3;
+    private String nomeBrano1;
+    private String nomeBrano2;
+    private String nomeBrano3;
 
-    public String getTitoloBrano1() {
-        return titoloBrano1;
+    public String getnomeBrano1() {
+        return nomeBrano1;
     }
 
-    public void setTitoloBrano1(String titoloBrano1) {
-        this.titoloBrano1 = titoloBrano1;
+    public void setnomeBrano1(String nomeBrano1) {
+        this.nomeBrano1 = nomeBrano1;
     }
 
-    public String getTitoloBrano2() {
-        return titoloBrano2;
+    public String getnomeBrano2() {
+        return nomeBrano2;
     }
 
-    public void setTitoloBrano2(String titoloBrano2) {
-        this.titoloBrano2 = titoloBrano2;
+    public void setnomeBrano2(String nomeBrano2) {
+        this.nomeBrano2 = nomeBrano2;
     }
 
-    public String getTitoloBrano3() {
-        return titoloBrano3;
+    public String getnomeBrano3() {
+        return nomeBrano3;
     }
 
-    public void setTitoloBrano3(String titoloBrano3) {
-        this.titoloBrano3 = titoloBrano3;
+    public void setnomeBrano3(String nomeBrano3) {
+        this.nomeBrano3 = nomeBrano3;
     }
 
  
@@ -46,7 +46,7 @@ public class SupportoMusicale {
         final SupportoMusicale other = (SupportoMusicale) obj;
           
         //Confronta gli attributi degli oggetti
-        if (!this.titoloBrano1.equals(other.titoloBrano1) || !this.titoloBrano2.equals(other.titoloBrano2) || !this.titoloBrano3.equals(other.titoloBrano3))  {
+        if (!this.nomeBrano1.equals(other.nomeBrano1) || !this.nomeBrano2.equals(other.nomeBrano2) || !this.nomeBrano3.equals(other.nomeBrano3))  {
             return false;
         }
         

@@ -3,15 +3,15 @@ public class Main {
     public final static void main (String[]args) {
 
         SupportoMusicale s = new SupportoMusicale();
-        s.setTitoloBrano1("titoloBrano1");
+        s.setnomeBrano1("nomeBrano1");
         //System.out.println(s);
-        //s.getTitoloBrano();
+        //s.getnomeBrano();
 
         SupportoMusicale t = new SupportoMusicale();
-        t.setTitoloBrano2("titoloBrano2");
+        t.setnomeBrano2("nomeBrano2");
 
         SupportoMusicale u = new SupportoMusicale();
-        u.setTitoloBrano2("titoloBrano3");
+        u.setnomeBrano2("nomeBrano3");
 
         boolean a = s.equals(t);
         System.out.println(a);
@@ -19,7 +19,7 @@ public class Main {
         RiproduttoreMusicale r = new RiproduttoreMusicale();
         r.inserisciSupporto(s);
         r.espelliSupporto(s);
-        r.selectBrano("titoloBrano1");
+        r.selectBrano("nomeBrano1");
         r.getBrano();
         r.play();
         r.stop();
@@ -29,5 +29,8 @@ public class Main {
         
         Nastro n = new Nastro();
         n.setNumeroBrani(5);
+
+        Brano b = new Brano();
+        b.setNomeCantante("Alvaro Soler");
     }
 }
