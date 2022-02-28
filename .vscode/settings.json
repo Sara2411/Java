@@ -5,6 +5,7 @@
         "part3_controllo_array",
         "part4_oggetti2",
         "part5_ereditarieta",
-        "part6_polimorfismo_liste"
+        "part6_polimorfismo_liste",
+        "part7_interfacce_classi_interne"
     ]
 }
