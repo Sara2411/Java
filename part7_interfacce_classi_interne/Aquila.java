@@ -1,3 +1,3 @@
-public class Aquila extends Uccello {
+public class Aquila extends Uccello2 {
     
 }

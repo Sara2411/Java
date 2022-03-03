@@ -1,18 +1,27 @@
-public class Uomo {
+public class Uomo implements Salta, Corre, Nuota, Vola {
     
-    public static void salta() {   
-    }
+    @Override
+    public void salta() { 
 
-    public static void corre() {   
+    }
+    
+    @Override
+    public void corre() {   
+
     }
 
     public static void pensa() {   
+
     }
 
-    public static void nuota() {   
+    @Override
+    public void nuota() {   
+
     }
   
-    public static void vola() {   
+    @Override
+    public void vola() {   
+        
     }
 
 }

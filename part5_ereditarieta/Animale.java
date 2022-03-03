@@ -22,4 +22,5 @@ public abstract class Animale {
          case GRANDE: System.out.println("Taglia grande");
       }
     }
+    
 }

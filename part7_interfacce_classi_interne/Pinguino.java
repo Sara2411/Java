@@ -1,6 +1,14 @@
-public class Pinguino extends Uccello {
+public class Pinguino implements Becca, Nuota {
 
-    public static void nuota() {    
+    @Override
+    public void becca() {
+        
     }
-    
+
+    @Override
+    public void nuota() {
+        
+    }
+
+ 
 }

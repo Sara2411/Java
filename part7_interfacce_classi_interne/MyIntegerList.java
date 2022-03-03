@@ -7,13 +7,6 @@ import java.util.ListIterator;
 public class MyIntegerList<T> implements List {
 
     List<Integer> list = new ArrayList<Integer>();
-    
-    /*public MyIntegerList() {
-    }
-
-    public MyIntegerList<T>() {
-
-    }*/
 
     @Override
     public int size() {
@@ -151,5 +144,13 @@ public class MyIntegerList<T> implements List {
         // TODO Auto-generated method stub
         return null;
     }
+    
+    /*public MyIntegerList() {
+    }
+
+    public MyIntegerList<T>() {
+
+    }*/
+
 
 }

@@ -1,6 +1,8 @@
-public class Pesce {
-    
-    public static void nuota() {    
+public class Pesce implements Nuota {
+
+    @Override
+    public void nuota() {
+     
     }
     
 }

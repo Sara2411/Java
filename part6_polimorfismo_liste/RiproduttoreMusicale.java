@@ -1,16 +1,16 @@
 public class RiproduttoreMusicale {
     
-    private SupportoMusicale s;
+    SupportoMusicale s = new SupportoMusicale();
     private String nomeBranoSelezionato;
     private String nomeBranoInEsecuzione;
     private String nomeBrano;
     
-    public void inserisciSupporto (SupportoMusicale supportoMusicale) {
-        s = supportoMusicale;
+    public void inserisciSupporto (SupportoMusicale s) {
+        this.s = s;
     }
 
-    public void espelliSupporto (SupportoMusicale supportoMusicale) {
-        s = null;
+    public void espelliSupporto (SupportoMusicale s) {
+        this.s = null;
     }
     
     public void selectBrano(String nomeBrano) {

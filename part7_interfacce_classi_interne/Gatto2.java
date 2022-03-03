@@ -1,4 +1,4 @@
-public class Gatto {
+public class Gatto2 {
     
     public static void salta() {   
     }
