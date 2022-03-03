@@ -4,7 +4,7 @@ public class Corvo extends Uccello1 {
         System.out.println("Il corvo gracchia");
     }
     
-    public void getTaglia(Taglia MEDIA) {
+    public void getTaglia(String tagliaMedia) {
         
     }
     

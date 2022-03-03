@@ -8,7 +8,7 @@ public class Millepiedi extends Animale {
         System.out.println("Il numero di zampe è massimo 750");
     }
 
-    public void getTaglia(Taglia PICCOLA) {
+    public void getTaglia(String tagliaPiccola) {
         
     }
     

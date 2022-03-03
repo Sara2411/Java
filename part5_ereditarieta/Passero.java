@@ -4,7 +4,7 @@ public class Passero extends Uccello1 {
         System.out.println("Il passero cinguetta");
     }
 
-    public void getTaglia(Taglia PICCOLA) {
+    public void getTaglia(String tagliaPiccola) {
         
     }
     

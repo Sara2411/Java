@@ -1,12 +1,8 @@
-public class Gatto2 {
-    
-    public static void salta() {   
-    }
+public class Gatto2 extends Felino2 implements Domestico{
 
-    public static void corre() {   
-    }
-
-    public static void faLeFusa() {   
+    @Override
+    public void domestico() {   
+        
     }
 
 }

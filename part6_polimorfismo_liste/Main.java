@@ -1,6 +1,6 @@
 public class Main {
     
-    public final static void main (String[]args) {
+    public static void main (String[]args) {
 
         SupportoMusicale s = new SupportoMusicale();
         s.setnomeBrano1("nomeBrano1");

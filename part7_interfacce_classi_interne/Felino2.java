@@ -1,4 +1,4 @@
-public class Felino implements Salta, Corre {
+public class Felino2 implements Salta, Corre {
     
     @Override
     public void salta() {
