@@ -4,8 +4,6 @@ public class Main {
 
         SupportoMusicale s = new SupportoMusicale();
         s.setnomeBrano1("nomeBrano1");
-        //System.out.println(s);
-        //s.getnomeBrano();
 
         SupportoMusicale t = new SupportoMusicale();
         t.setnomeBrano2("nomeBrano2");
