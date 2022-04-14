@@ -1,41 +1,42 @@
 import java.util.Arrays;
 
-public class Pila<T> 
+public class Pila2 
 {
     static final public int INITIAL_SIZE = 5;
-    private T[]a;
+    private Object a;
     private int k = -1;
 
     @SuppressWarnings("unchecked")
     public Pila()
     {
-        a = (T[]) new Object[INITIAL_SIZE];
+        a = (Object[]) new Object[INITIAL_SIZE];
     }
 
-    public void push (T o)
+    public void push (Object o)
     {
         if (k == a.length -1) a = Arrays.copyOf(a, a.length*2);
         a[++k] = o;
     }
 
-    public T peek()
+    public Object peek()
     {
         if (k == -1) return null;
         return a[k];
     }
 
-    public T pop()
+    public Object pop()
     {
         if(k == -1) return null;
         return a[k--];
     }
-}
- 
+
+
     public static void main (String[] args) {
 
-        Pila<Integer> p = new Pila<Integer>(10);
+        Object Pila p = new Object Pila(10);
         p.push(1);
         p.push(2);
-        Integer k = p.pop();
+        Object k = p.pop();
     }  
 }
+
