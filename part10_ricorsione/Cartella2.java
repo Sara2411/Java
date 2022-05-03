@@ -11,8 +11,8 @@ public class Cartella2 {
         this.path = path;
     }
 
-    public File cerca(String nomeFile) { 
-
+    public File cerca(String nomeFile) 
+    {       
         File f = new File("C:\\example");
         File[] matchingFiles = f.listFiles(new FilenameFilter() {
         public boolean accept(File dir, String name) {
@@ -30,7 +30,7 @@ public class Cartella2 {
 
     public static void main(String[] args) throws FileNotFoundException {
         Cartella2 cartella = new Cartella2("CartellaEsercizio");
-        cartella.cerca("a.txt");
+        File f = cartella.cerca("a.txt");
+        System.out.println(f);
     }
 }
-
