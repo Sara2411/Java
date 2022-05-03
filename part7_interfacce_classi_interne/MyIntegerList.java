@@ -144,13 +144,4 @@ public class MyIntegerList<T> implements List {
         // TODO Auto-generated method stub
         return null;
     }
-    
-    /*public MyIntegerList() {
-    }
-
-    public MyIntegerList<T>() {
-
-    }*/
-
-
 }

@@ -1,4 +1,4 @@
-public class Animali {
+public class AnimaleMain {
 
     public static void main (String[]args) {
     

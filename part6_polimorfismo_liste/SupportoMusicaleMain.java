@@ -1,4 +1,4 @@
-public class Main {
+public class SupportoMusicaleMain {
     
     public static void main (String[]args) {
 
