@@ -12,7 +12,7 @@ public class RicercaBinaria
         int meta = (b+a)/2;
         if (array[meta]== elemento) return meta;
         if (elemento <= array[meta]) return cerca(array, elemento, a, meta-1);
-        return cerca(array, elemento, meta+1, b);;
+        return cerca(array, elemento, meta+1, b);
     }
 
 }

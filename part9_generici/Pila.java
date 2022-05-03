@@ -29,11 +29,10 @@ public class Pila<T>
         if(k == -1) return null;
         return a[k--];
     }
-}
  
     public static void main (String[] args) {
 
-        Pila<Integer> p = new Pila<Integer>(10);
+        Pila<Integer> p = new Pila<>();
         p.push(1);
         p.push(2);
         Integer k = p.pop();

@@ -2,7 +2,7 @@ import java.io.File;
 
 public class Cartella 
 {
-    private file Cartella;
+    private File cartella;
 
     public Cartella(String percorso) 
     {
@@ -12,7 +12,7 @@ public class Cartella
     private String getSpazi(int k) 
     {
         StringBuffer sb = new StringBuffer();
-        while(k ---> 0) sb.append(" ");
+        while(k-- > 0) sb.append(" ");
         return sb.toString();
     }
 

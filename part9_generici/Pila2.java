@@ -1,20 +1,20 @@
 import java.util.Arrays;
 
-public class Pila2 
+public class Pila2<T>
 {
     static final public int INITIAL_SIZE = 5;
-    private Object a;
+    private T[] a;
     private int k = -1;
 
     @SuppressWarnings("unchecked")
-    public Pila()
+    public Pila2()
     {
-        a = (Object[]) new Object[INITIAL_SIZE];
+        a = (T[]) new Object[INITIAL_SIZE];
     }
 
-    public void push (Object o)
+    public void push(T o)
     {
-        if (k == a.length -1) a = Arrays.copyOf(a, a.length*2);
+        if (this.k == a.length -1) a = Arrays.copyOf(a, a.length*2);
         a[++k] = o;
     }
 
@@ -33,7 +33,7 @@ public class Pila2
 
     public static void main (String[] args) {
 
-        Object Pila p = new Object Pila(10);
+        Pila2 p = new Pila2();
         p.push(1);
         p.push(2);
         Object k = p.pop();

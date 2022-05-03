@@ -8,6 +8,6 @@ public class Palindroma {
     private boolean isPalindroma(String s, int a, int b) 
     {
         if (a>=b) return true;
-        return s.charAt(b) && isPalindroma(s, a+b, b-1);
+        return s.charAt(a) == s.charAt(b) && isPalindroma(s, a+b, b-1);
     }
 }
