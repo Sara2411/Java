@@ -1,11 +1,9 @@
 import java.util.Arrays;
-import java.util.Collections;
 
 public class MassimoLista {
 
     public static <T> void max(T x[]) {
     
-        Collections.max(Arrays.asList(x));
         System.out.println("Max = " + Arrays.asList(x));
     }   
 
