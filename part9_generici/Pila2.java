@@ -33,10 +33,10 @@ public class Pila2<T>
 
     public static void main (String[] args) {
 
-        Pila2 p = new Pila2();
+        Pila2<Integer> p = new Pila2<>();
         p.push(1);
         p.push(2);
-        Object k = p.pop();
+        p.pop();
     }  
 }
 

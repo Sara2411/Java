@@ -3,7 +3,7 @@ import java.util.Collections;
 
 public class MassimoLista {
 
-    public static <T extends Double> void max(T x[]) {
+    public static <T> void max(T x[]) {
     
         Collections.max(Arrays.asList(x));
         System.out.println("Max = " + Arrays.asList(x));

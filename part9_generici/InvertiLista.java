@@ -3,7 +3,7 @@ import java.util.Collections;
 
 public class InvertiLista {
     
-    public static <T extends Double> void reverse(T x[]) {
+    public static <T> void reverse(T x[]) {
     
         Collections.reverse(Arrays.asList(x));
         System.out.println("ReverseList = " + Arrays.asList(x));

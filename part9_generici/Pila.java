@@ -35,6 +35,6 @@ public class Pila<T>
         Pila<Integer> p = new Pila<>();
         p.push(1);
         p.push(2);
-        Integer k = p.pop();
+        p.pop();
     }  
 }
