@@ -1,17 +1,17 @@
 {
     "java.project.sourcePaths": [
         ".vscode",
-        "part_1_intro",
-        "part_2_oggetti",
-        "part_3_controllo_array",
-        "part_4_oggetti2",
-        "part_5_ereditarieta",
-        "part_6_polimorfismo_liste",
-        "part_7_interfacce_classi_interne",
-        "part_8_strutture_dati",
-        "part_9_generici",
-        "part_10_ricorsione",
-        "part_11_eccezioni",
-        "part_12_input_output"
+        "1_intro",
+        "2_oggetti",
+        "3_controllo_array",
+        "4_oggetti2",
+        "5_ereditarieta",
+        "6_polimorfismo_liste",
+        "7_interfacce_classi_interne",
+        "8_strutture_dati",
+        "9_generici",
+        "10_ricorsione",
+        "11_eccezioni",
+        "12_input_output"
     ]
 } 
